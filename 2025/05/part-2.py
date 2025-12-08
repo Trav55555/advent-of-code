@@ -1,3 +1,6 @@
+"""Sort the list of ranges, merge overlaps, then count unique numbers in ranges"""
+
+
 def get_input(input_file):
     ranges = []
     ids = []

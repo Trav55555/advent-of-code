@@ -1,3 +1,6 @@
+"""sort the ranges and ids, check if id is in any range, if yes increment."""
+
+
 def get_input(input_file):
     ranges = []
     ids = []
