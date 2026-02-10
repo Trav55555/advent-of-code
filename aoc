@@ -1,0 +1,11 @@
+#!/usr/bin/env python3
+"""Advent of Code CLI. Run with: ./aoc <command> [args]"""
+
+import sys
+from pathlib import Path
+
+sys.path.insert(0, str(Path(__file__).resolve().parent))
+
+from helpers.cli import main
+
+main()

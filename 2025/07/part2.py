@@ -1,3 +1,5 @@
+"""Since overlapping beams represent distinct timelines, use a Dictionary (or hash map) to sum the total path counts at each position."""
+
 from collections import defaultdict
 
 

@@ -1,3 +1,6 @@
+"""Since overlapping beams merge into one, use a Set to track unique active column positions."""
+
+
 def get_input(input_file):
     with open(input_file, "r") as f:
         input = f.read().strip().split("\n")
